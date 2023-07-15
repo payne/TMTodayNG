@@ -7,6 +7,7 @@ import { SimpleMenu1Component } from './simple-menu1/simple-menu1.component';
 import { HomeComponent } from './home/home.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { MeetingDatesComponent } from './meeting-dates/meeting-dates.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MeetingDatesComponent } from './meeting-dates/meeting-dates.component';
     SimpleMenu1Component,
     HomeComponent,
     SpeakersComponent,
-    MeetingDatesComponent
+    MeetingDatesComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
